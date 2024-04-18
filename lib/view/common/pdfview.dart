@@ -3,8 +3,8 @@ import 'package:file_saver/file_saver.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
-class OcurrencyView extends StatelessWidget {
-  const OcurrencyView({super.key, required this.file});
+class PDFView extends StatelessWidget {
+  const PDFView({super.key, required this.file});
   final Uint8List file;
 
   @override

@@ -1,16 +1,17 @@
 # dartt_certified
 
-A new Flutter project.
+Este projeto, tem por finalidade ser usado para a impressão de certificados através para eventos e treinamentos.
+Para cada novo cliente, deve-se seguir os seguintes passos:
 
-## Getting Started
+* Adicionar dentro da pasta assets/images
+* Dentro da pasta criada adicionar o certificado do cliente sem o nome da pessoa background.jpg
+* Dentro da pasta criada adicionar a imagem de fundo da página do cliente bg-home.jpg
+* Dentro da pasta criada adicionar a imagem de logo da página do cliente logo.png
+* No arquivo pubspec.yaml na tag assets devem ser incluídos o caminho da nova pasta das imagens
 
-This project is a starting point for a Flutter application.
+## Versão do flutter utilizado
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter 3.19.2 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 7482962148 (7 weeks ago) • 2024-02-27 16:51:22 -0500
+Engine • revision 04817c99c9
+Tools • Dart 3.3.0 • DevTools 2.31.1
