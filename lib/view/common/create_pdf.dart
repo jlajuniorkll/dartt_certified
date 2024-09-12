@@ -51,7 +51,7 @@ Future<Uint8List> createPDF({required String nome, required String org}) async {
               ),
             ),
             pw.Column(mainAxisAlignment: pw.MainAxisAlignment.start, children: [
-              pw.SizedBox(height: pageHeight * 0.42),
+              pw.SizedBox(height: pageHeight * 0.40),
               pw.Text(
                 nome,
                 style: const pw.TextStyle(
